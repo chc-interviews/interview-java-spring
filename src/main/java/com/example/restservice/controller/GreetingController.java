@@ -1,7 +1,8 @@
-package com.example.restservice;
+package com.example.restservice.controller;
 
 import java.util.concurrent.atomic.AtomicLong;
 
+import com.example.restservice.model.Greeting;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

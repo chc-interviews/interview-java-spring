@@ -15,3 +15,42 @@ It will respond with a JSON representation of a greeting, as the following listi
 {"id":1,"content":"Hello, World!"}
 ----
 ====
+
+
+== Interview
+
+Roman Numeral Converter
+
+I = 1
+V = 5
+X = 10
+L = 50
+C = 100
+D = 500
+M = 1000
+
+If a smaller value is placed before a larger one, subtract instead of add.
+
+IV      = 4 = 5 - 1
+VI      = 6 = 5 + 1
+IX      = 9 = 10 - 1
+XIV     = 14 = 10 + (5 - 1)
+XL      = 40 = 50 - 10
+XLI     = 41 = 50 + 1 - 10
+LI      = 51 = 50 + 1
+XC      = 90 = 100 - 10
+CD      = 400 = 500 - 100
+CM      = 900 = 1000 - 100
+MC      = 1100 = 1000 + 100
+
+982
+= 900 + 80 + 2
+= CM + LXXX + II
+= CMLXXXII
+
+Only one I, X, and C can be used as the leading numeral in part of a subtractive pair.
+I can only be placed before V and X.
+X can only be placed before L and C.
+C can only be placed before D and M.
+
+
