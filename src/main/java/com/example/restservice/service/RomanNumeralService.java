@@ -135,7 +135,6 @@ public class RomanNumeralService {
                     }
                     else
                         i+=tempNum;
-                    prev = tempNum;
                     break;
                 }
             }
