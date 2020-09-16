@@ -116,9 +116,6 @@ public class RomanNumeralService {
 
 
     public int convertToRomanNumeral(String number) {
-        //Validate integer no decimal
-        //Validate 1 to 3999
-
         int i = 0;
         int prev = 0;
         for(int index = 0; index<number.length(); index++)
