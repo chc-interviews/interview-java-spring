@@ -34,8 +34,6 @@ public class RomanNumeralService {
     }
 
     public String convertToRomanNumeral(Integer number) {
-        //Validate integer no decimal
-        //Validate 1 to 3999
 
         StringBuilder romanNumeral = new StringBuilder();
 
