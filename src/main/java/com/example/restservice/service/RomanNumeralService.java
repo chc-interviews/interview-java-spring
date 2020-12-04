@@ -115,7 +115,7 @@ public class RomanNumeralService {
     }
 
 
-    public int convertToRomanNumeral(String number) {
+    public int convertToInteger(String number) {
         //Validate integer no decimal
         //Validate 1 to 3999
 

@@ -14,61 +14,61 @@ public class RomanNumeralToIntTest {
 
     @Test
     public void convertIntegerOne(){
-        int result = service.convertToRomanNumeral("I");
+        int result = service.convertToInteger("I");
         Assert.assertEquals(1, result);
     }
 
     @Test
     public void convertUnderFour(){
-        int result = service.convertToRomanNumeral("III");
+        int result = service.convertToInteger("III");
         Assert.assertEquals(3, result);
     }
 
     @Test
     public void convertFour(){
-        int result = service.convertToRomanNumeral("IV");
+        int result = service.convertToInteger("IV");
         Assert.assertEquals(4, result);
     }
 
     @Test
     public void convertFive(){
-        int result = service.convertToRomanNumeral("V");
+        int result = service.convertToInteger("V");
         Assert.assertEquals(5, result);
     }
 
     @Test
     public void convertSix(){
-        int result = service.convertToRomanNumeral("VI");
+        int result = service.convertToInteger("VI");
         Assert.assertEquals(6, result);
     }
 
     @Test
     public void convertSeven(){
-        int result = service.convertToRomanNumeral("VII");
+        int result = service.convertToInteger("VII");
         Assert.assertEquals(7, result);
     }
 
     @Test
     public void convertNine(){
-        int result = service.convertToRomanNumeral("IX");
+        int result = service.convertToInteger("IX");
         Assert.assertEquals(9, result);
     }
 
     @Test
     public void convertNineteen(){
-        int result = service.convertToRomanNumeral("XIX");
+        int result = service.convertToInteger("XIX");
         Assert.assertEquals(19, result);
     }
 
     @Test
     public void convertTen(){
-        int result = service.convertToRomanNumeral("X");
+        int result = service.convertToInteger("X");
         Assert.assertEquals(10, result);
     }
 
     @Test
     public void convertRandom(){
-        int result = service.convertToRomanNumeral("CMLXXXII");
+        int result = service.convertToInteger("CMLXXXII");
         Assert.assertEquals(982, result);
     }
 
