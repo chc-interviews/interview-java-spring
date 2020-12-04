@@ -113,7 +113,7 @@ public class RomanNumeralService {
     }
 
 
-    public int convertToRomanNumeral(String number) {
+    public int convertToInteger(String number) {
         int i = 0;
         int prev = 0;
         for(int index = 0; index<number.length(); index++)
